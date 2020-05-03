@@ -29,6 +29,10 @@
         />
 
         <KeyFrameSet>
+            <!-- xml/step6.xml -->
+
+            <!-- TODO: Add Custom attributes here -->
+
             <KeyPosition
                     app:framePosition="25"
                     app:motionTarget="@id/moon"
@@ -64,6 +68,32 @@
                     app:motionTarget="@id/credits"
                     android:alpha="0.0"
             />
+
+            <KeyAttribute
+                app:framePosition="0"
+                app:motionTarget="@id/moon">
+                <CustomAttribute
+                    app:attributeName="colorFilter"
+                    app:customColorValue="#FFFFFF"
+                    />
+            </KeyAttribute>
+
+            <KeyAttribute
+                app:framePosition="50"
+                app:motionTarget="@id/moon">
+                <CustomAttribute
+                    app:attributeName="colorFilter"
+                    app:customColorValue="#FFB612"
+                    />
+            </KeyAttribute>
+            <KeyAttribute
+                app:framePosition="100"
+                app:motionTarget="@id/moon">
+                <CustomAttribute
+                    app:attributeName="colorFilter"
+                    app:customColorValue="#FFFFFF"
+                    />
+            </KeyAttribute>
 
             <!-- TODO Add Custom attributes here -->
 

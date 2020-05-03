@@ -29,8 +29,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/background"
-            android:scaleType="centerCrop"
-    />
+            android:scaleType="centerCrop" />
 
 
     <ImageView
